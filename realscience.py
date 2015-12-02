@@ -3,6 +3,8 @@ import string, random, time
 
 #define misc science functions
 
+
+
 def graphs(graphtype):
 	#select distinct graph types
 	if graphtype == 1:
