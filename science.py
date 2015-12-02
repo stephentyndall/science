@@ -1,7 +1,8 @@
 import string, random, time
 
-
-
+#adding some comments to test github push
+#
+#
 
 def graphs(graphtype):
 	#select distinct graph types
@@ -49,12 +50,6 @@ def checks():
 
 
 
-def rand_ip():
-	ip = ""
-	for x in range(3):
-		ip = ip + str(random.randint(35, 899)) + "."
-	ip = ip + str(random.randint(35,999))
-	return ip
 
 
 def hackit():
@@ -71,6 +66,15 @@ def hackit():
 		print "LOSING HACKING BATTLE"
 		time.sleep(3)
 		print "HACKING BATTLE LOST"	
+
+
+def rand_ip():
+	ip = ""
+	for x in range(3):
+		ip = ip + str(random.randint(35, 899)) + "."
+	ip = ip + str(random.randint(35,999))
+	return ip
+
 
 def counter_hack():
 	print "BEGINNING COUNTERHACK\n"
